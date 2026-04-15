@@ -31,3 +31,7 @@ A lightweight Docker-based setup combining Django (Python web framework) and Ngi
 - Python 3.x
 - Django
 - Nginx
+
+sudo docker compose -f docker-compose.yaml down -v --remove-orphans && \
+sudo docker compose -f docker-compose.yaml build --no-cache && \
+sudo docker compose -f docker-compose.yaml up

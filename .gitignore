@@ -8,3 +8,22 @@ wheels/
 
 # Virtual environments
 .venv
+# Python
+__pycache__/
+*.pyc
+
+# Django
+db.sqlite3
+*.log
+media/
+
+# Static files
+staticfiles/
+
+# Environment
+.env
+venv/
+.env/
+
+# OS
+.DS_Store
